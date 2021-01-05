@@ -1,16 +1,23 @@
-# Getting Started with Create React App
+# To-Do Web App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- React.js
+- Django
+- Django REST framework
 
-## Available Scripts
+### To start backend
 
-In the project directory, you can run:
+```sh
+$ cd backend
+$ python manage.py runserver
+```
 
-### `yarn start`
+### To start frontend
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```sh
+$ cd frontend
+$ yarn start
+```
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### [Demo](https://www.youtube.com/watch?v=Kj2Iw1EYI7Q)
 
+[![Watch the video](https://j.gifs.com/E8zDl0.gif)](https://www.youtube.com/watch?v=Kj2Iw1EYI7Q)

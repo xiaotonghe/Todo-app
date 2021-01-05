@@ -7,6 +7,7 @@ import axios from "axios";
 class App extends Component {
   constructor(props) {
     super(props);
+    // "this" refer to app
     this.state = {
       viewCompleted: false,
       activeItem: {
@@ -29,6 +30,7 @@ class App extends Component {
       .then(res => this.setState({ todoList: res.data }))
       .catch(err => console.log(err));
   };
+
   displayCompleted = status => {
     if (status) {
       return this.setState({ viewCompleted: true });
